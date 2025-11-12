@@ -1,0 +1,106 @@
+h1{
+    display: flex;
+    text-align: center;
+    font-family: cursive;
+    font-size: 7rem;
+    color: lightgoldenrodyellow
+}
+body{
+    min-height: 100vh;
+    background : linear-gradient(to bottom , purple , red);
+    background-attachment: fixed;
+    transition: background 0.5s ease;
+}
+.container{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+.happy{
+    background-color: aliceblue;
+    height:200px;
+    width:200px;
+    border-radius: 20px;
+    background-image: url(images/lively.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 10px solid #9450ca;
+    color:#ffe131;}
+
+.relax{
+    background-color: aliceblue;
+    height:200px;
+    width:200px;
+    border-radius: 20px;
+    background-image: url(images/relax.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 10px solid #9450ca;;
+    color:#ffe131;
+}
+.nostalgic{
+    background-color: aliceblue;
+    height:200px;
+    width:200px;
+    border-radius: 20px;
+    background-image: url(images/nostalgia.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 10px solid #9450ca;;
+    color:#ffe131;
+    
+}
+.rise{
+    background-color: aliceblue;
+    height:200px;
+    width:200px;
+    border-radius: 20px;
+    background-image: url(images/comeback.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 10px solid #9450ca;;
+    color: aliceblue;
+}
+.sad{
+    background-color: aliceblue;
+    height:200px;
+    width:200px;
+    border-radius: 20px;
+    background-image: url(images/sad.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: 10px solid #9450ca;;
+    color:#f2f26c;
+}
+.btn:hover {
+  background-color: #ffffff22; /* soft white overlay */
+  box-shadow: 0 0 15px #fff;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  color: transparent;
+}
+
+footer{
+    display:flex;
+    text-align: center;
+    font-family:cursive;
+    font-size: 2rem;
+    margin-top:100px;
+    justify-content: center;
+    color:lightgoldenrodyellow;
+}
+.stop{
+    height:100px;
+    width:100px;
+    border-radius: 20px;
+    background-color: #a75a5a;
+    color:whitesmoke;
+    border: 10px solid #663c3c;
+}
