@@ -37,12 +37,12 @@ for (var i = 0; i < NumberOfButton; i++) {
   });
 }
 //  Stop button 
-document.getElementsByClassName("stopBtn").addEventListener("click", function () {
-  audioPlayer.pause();
-  audioPlayer.currentTime = 0;
-});
-
-
+for (let i = 0; i < stopButtons.length; i++) {
+  stopButtons[i].addEventListener("click", function () {
+    audioPlayer.pause();
+    audioPlayer.currentTime = 0;
+  });
+}
 
 
 
