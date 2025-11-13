@@ -37,12 +37,15 @@ for (var i = 0; i < NumberOfButton; i++) {
   });
 }
 //  Stop button 
+let stopButtons = document.getElementsByClassName("stop");
+
 for (let i = 0; i < stopButtons.length; i++) {
   stopButtons[i].addEventListener("click", function () {
     audioPlayer.pause();
     audioPlayer.currentTime = 0;
   });
 }
+
 
 
 
